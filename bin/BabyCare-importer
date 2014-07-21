@@ -1,3 +1,5 @@
 #! /usr/bin/env node
 
-require('../importer.js');
+var importer = require('../importer.js');
+
+importer.run();
